@@ -1,0 +1,176 @@
+
+<div class="=col-md-8 offset-md-3">
+<div class = "fm">
+    <div class="frm">
+    
+        <form [formGroup] = "formData" (ngSubmit) = "onSubmit()" >
+            <div id="f" method="post">
+                <div class="block1">
+                    <!-- <div class="form-group">
+                    <div class="id col-md-12">
+                        <label>Patient id</label>
+                        <input type="text" id="id" class="form-control" name="id" placeholder="Patient id" formControlName = "id" 
+                        [(ngModel)] = "patient.id">
+                         <br>
+                         <span style="color:red;" *ngIf="fname && fname.invalid && fname.touched">This is required</span> 
+                         
+                         <span style="color: red;" *ngIf = "id && id.invalid && id.touched">This is required</span> 
+                         <br>
+                         <br>
+                    </div>
+                    </div> -->
+
+
+                    <div class="form-group">
+                    <div class="firstname col-md-12">
+                        <label>Full Name</label>
+                        <input type="text" id="fname" class="form-control" name="fname" placeholder="Full Name" formControlName = "fname"
+                        [(ngModel)] = "patient.patientName" >
+                        <!-- <br>
+                        <span style="color:red;" *ngIf="fname && fname.invalid && fname.touched">This is required</span> -->
+                        
+                        <span style="color: red;" *ngIf = "firstname && firstname.invalid && firstname.touched">This is required</span>
+                        <br>
+                        <br>
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                    <div class="lastname col-md-12">
+                        <label>Assigned Doctor</label>
+                        <input type="text" id="lname" name="lname" class="form-control" placeholder="Name of" formControlName = "lname"
+                        [(ngModel)] = "patient.doctor"> 
+                        
+                        <span style="color: red;" *ngIf = "lastname && lastname.invalid && lastname.touched">This is required</span>
+                        <br>
+                    </div>
+                    </div> 
+                </div>
+                
+                    
+                <div class="block2">
+
+                    <div class="form-group">
+                    <div class="mobilenumber col-md-12">
+                        <label>Mobile Number</label>
+                        <input type="text" id="mobilenumber" name="mobilenumber" class="form-control" placeholder="Mobile Number" formControlName = "mobilenumber"
+                        [(ngModel)] = "patient.mobileNumber">
+                        
+                        <span style="color: red;" *ngIf = "phonenumber && phonenumber.invalid && phonenumber.touched">This is required</span>
+                        <br>
+                    </div>   
+                    </div>  
+                    
+                    <div class="form-group">
+                    <div class="age col-md-12">
+                        <label>Age</label>
+                        <input type="text" id="age" name="age" class="form-control" placeholder="Age" formControlName = "age" [(ngModel)] = "patient.age"> 
+                        
+                        <span style="color: red;" *ngIf = "age && age.invalid && age.touched">This is required</span>
+                        <br>
+                    </div> 
+                    </div>
+                    <br>
+                    
+                    <div class="form-group">
+                    <div class="gender col-md-12">
+                        <label>Gender</label><br>
+                        <input type="text" id="gender" name="gender" class="form-control" placeholder="gender" formControlName = "gender"
+                        [(ngModel)] = "patient.gender"> 
+                        <!-- <input type="radio" name="gender" id="gender"  value="Female"> &nbsp; Female
+                        
+                        <br>
+                        <input type="radio" name="gender" id="gender"   value="Male"> &nbsp; Male -->
+                    
+                    <span style="color: red;" *ngIf = "gender && gender.invalid && gender.touched">This is required</span>
+                        <br>
+                    </div>
+                    <br>
+                    </div>
+                </div>
+                   
+                <div class="block3"> 
+
+                    <div class="form-group">
+                    <div class="disease col-md-12" >
+                        <label>Disease Declaration</label>
+                        <input type="text" id="disease" name="disease" class="form-control" placeholder="Disease" formControlName = "disease"
+                        [(ngModel)] = "patient.disease"> 
+                        
+                        <span style="color: red;" *ngIf = "dis && dis.invalid && dis.touched">This is required</span>
+                        <br>
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                    <div class="admit col-md-12">
+                        <label>Admitted Date</label>
+                        <input type="text" id="admitteddate" name="admitteddate" class="form-control" placeholder="Admitted Date" formControlName = "admitteddate"
+                        [(ngModel)] = "patient.admittedDate"> 
+                        
+                        <span style="color: red;" *ngIf = "addate && addate.invalid && addate.touched">This is required</span>
+                        <br>
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                    <div class="discharge col-md-12">
+                        <label>Discharge Date</label>
+                        <input type="text" id="dischargedate" name="dischargedate" class="form-control" placeholder="Discharge Date" formControlName = "dischargedate"
+                        [(ngModel)] = "patient.dischargedDate"> 
+                        
+                        <span style="color: red;" *ngIf = "disdate && disdate.invalid && disdate.touched">This is required</span>
+                        <br>
+                    </div>
+                    </div>
+                </div>
+                <div class="block4">
+
+                    <div class="form-group">
+                    <div class="Amount col-md-12">
+                        <label>Amount For Treatment</label>
+                        <input type="text" id="amount" name="amount" class="form-control" placeholder="Amount" formControlName = "amount"
+                        [(ngModel)] = "patient.payment">
+                        
+                        <span style="color: red;" *ngIf = "amt && amt.invalid && amt.touched">This is required</span>
+                        <br>     
+                    </div> 
+                    </div>
+
+                    <div class="form-group">
+                    <div class="BalanceAmount col-md-12">
+                        <label>Balance Amount</label>
+                        <input type="text" id="bamount" name="bamount" class="form-control" placeholder="Balance Amount" formControlName = "bamount"
+                        [(ngModel)] = "patient.balanceAmount">
+                        
+                        <span style="color: red;" *ngIf = "bamt && bamt.invalid && bamt.touched">This is required</span>
+                        <br>     
+                    </div> 
+                    </div>
+
+                    <div class="form-group">
+                    <div class="TotalAmount col-md-12">
+                        <label>Total Amount(Paid/not)</label>
+                        <input type="text" id="tamount" name="tamount" class="form-control" placeholder="Total Amount(Paid/not)" formControlName = "tamount"
+                        [(ngModel)] = "patient.amountDue">
+                        
+                        <span style="color: red;" *ngIf = "tamt && tamt.invalid && tamt.touched">This is required</span>
+                        <br>     
+                    </div>  
+                    </div>
+                </div>
+
+                    <div class="sub">
+                        <button class="btn btn-success" type="submit" style="color: black;">Add Patient Details</button>
+                        
+                        <!-- <button>Submit</button> -->
+                    </div>
+                </div>  
+         </form>
+        
+    </div>  
+   
+  
+</div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,216 @@
+<div class = "fm">
+    <div class="frm">
+    
+        <form [formGroup] = "formData" (ngSubmit) = "onClickSubmit()">
+            <div id="f" method="post">
+                <div class="block1">
+                    <div class="firstname col-md-3">
+                        <label>First Name</label>
+                        <input type="text" id="fname" class="form-control" name="fname" placeholder="First Name" formControlName = "fname">
+                        <!-- <br>
+                        <span style="color:red;" *ngIf="fname && fname.invalid && fname.touched">This is required</span> -->
+                        
+                        <span style="color: red;" *ngIf = "firstname && firstname.invalid && firstname.touched">This is required</span>
+                        <br>
+                        <br>
+                    </div>
+                    <div>
+                        <label class="middlename col-md-12">Middle Name</label>
+                        <input type="text" id="mname" name="mname" class="form-control" placeholder="Middle Name" formControlName = "mname"> 
+                        
+                        <span style="color: red;" *ngIf = "middlename && middlename.invalid && middlename.touched">This is required</span>
+                        <br>
+                    </div>
+                    <div class="lastname col-md-3">
+                        <label>Last Name</label>
+                        <input type="text" id="lname" name="lname" class="form-control" placeholder="Last Name" formControlName = "lname"> 
+                        
+                        <span style="color: red;" *ngIf = "lastname && lastname.invalid && lastname.touched">This is required</span>
+                        <br>
+                    </div>
+                </div> 
+                
+                    <div class="mfname col-md-12">
+                        <label>Mother's/Father's Name</label>
+                        <input type="text" id="mothername" name="mothername" class="form-control" placeholder="Mother's/Father's Name" formControlName = "mothername">  
+                        
+                        <span style="color: red;" *ngIf = "motherfathername && motherfathername.invalid && motherfathername.touched">This is required</span>
+                        <br>    
+                    </div>
+                <div class="block2">
+                    <div class="mobilenumber col-md-3">
+                        <label>Mobile Number</label>
+                        <input type="text" id="mobilenumber" name="mobilenumber" class="form-control" placeholder="Mobile Number" formControlName = "mobilenumber">
+                        
+                        <span style="color: red;" *ngIf = "phonenumber && phonenumber.invalid && phonenumber.touched">This is required</span>
+                        <br>
+                        <!-- <span style="color: red;" *ngIf = "phonenumber && phonenumber.invalid && phonenumber.minlength && phonenumber.touched ">Number is short</span>
+                        <br>
+                        <span style="color: red;" *ngIf = "phonenumber.invalid && phonenumber.maxlength && phonenumber.touched ">Number is long</span>
+                        <br>
+                        <span style="color: red;" *ngIf = "phonenumber.invalid && phonenumber.pattern && phonenumber.touched ">Number is invalid</span> -->
+                    </div>    
+                    <div class="email col-md-3">
+                        <label>Email</label>
+                        <input type="email" id="mail" name="mail" class="form-control" placeholder="Email" formControlName = "mail">
+                        
+                        <span style="color: red;" *ngIf = "email && email.invalid && email.touched">This is required</span>
+                        <br>
+                    </div>
+                    <div class="gender col-md-3">
+                        <label>Gender</label><br>
+                        <input type="radio" name="gender" id="gender"  value="Female"> &nbsp; Female
+                        
+                        <br>
+                        <input type="radio" name="gender" id="gender"   value="Male"> &nbsp; Male
+                    
+                    <span style="color: red;" *ngIf = "gender && gender.invalid && gender.touched">This is required</span>
+                        <br>
+                    </div>
+                </div>
+                    <!-- <div class="address col-md-12">
+                        <label>Current Residential Address</label>
+                        <input type="textarea" id="ad" name="ad" class="form-control" placeholder="House Number/Flat Number,Society Name" formControlName = "ad">
+                        
+                        <span style="color: red;" *ngIf = "address && address.invalid && address.touched">This is required</span>
+                        <br> 
+                    </div>
+                    <div class="address2 col-md-12">
+                        <label>Address Line 2</label>
+                        <input type="textarea" id="ad2" name="ad2" class="form-control" placeholder="StreetAddress,LandMark" formControlName = "ad2"> 
+                        
+                        <span style="color: red;" *ngIf = "address2 && address2.invalid && address2.touched">This is required</span>
+                        <br>
+                    </div> -->
+                <!-- <div class="block3">  
+                    <div class="city col-md-3" >
+                        <label>City</label>
+                        <input type="text" id="city" name="city" class="form-control" placeholder="City" formControlName = "city"> 
+                        
+                        <span style="color: red;" *ngIf = "city && city.invalid && city.touched">This is required</span>
+                        <br>
+                    </div>
+                    <div class="state col-md-3">
+                        <label>State</label>
+                        <input type="text" id="state" name="state" class="form-control" placeholder="State" formControlName = "state"> 
+                        
+                        <span style="color: red;" *ngIf = "state && state.invalid && state.touched">This is required</span>
+                        <br>
+                    </div>
+                    <div class="pincode col-md-3">
+                        <label>Pin Code</label>
+                        <input type="text" id="code" name="code" class="form-control" placeholder="Pin Code" formControlName = "code"> 
+                        
+                        <span style="color: red;" *ngIf = "pincode && pincode.invalid && pincode.touched">This is required</span>
+                        <br>
+                    </div>
+                </div> -->
+                    <div class="block4">
+                    <div class="occupation col-md-3">
+                        <label >Occupation</label>
+                        <select> 
+                            <option value="Student">Student</option>
+                            <option value="Business">Business</option>
+                            <option value="Government Employed">Government Employed</option>
+                            <option value="Self Employed">Self Employed</option>
+                            <option value="Home Maker">Home Maker</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    
+                    <span style="color: red;" *ngIf = "occupation && occupation.invalid && occupation.touched">This is required</span>
+                        <br>
+                    </div>
+                    <br>
+                    <div class="age col-md-3">
+                        <label>Age</label>
+                        <input type="text" id="age" name="age" class="form-control" placeholder="Age" formControlName = "age"> 
+                        
+                        <span style="color: red;" *ngIf = "age && age.invalid && age.touched">This is required</span>
+                        <br>
+                    </div>
+                    <div class="bloodgroup col-md-3">
+                        <label >Blood Group</label>
+                        &nbsp;
+                        <select> 
+                            <option value="A+" name="bloodgroup" id="bloodgroup">A+</option>
+                            
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                        </select>
+                        
+                        <span style="color: red;" *ngIf = "bloodgroup && bloodgroup.invalid && bloodgroup.touched">This is required</span>
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <div class="block5">
+                    <div class="identity col-md-6">
+                        <label > Choose Identity Card</label>
+                        &nbsp;
+                        <select> 
+                           <option value=" Choose Identity Card" name = "identitycard" id="identitycard" disabled> Choose Identity Card</option>
+                            <option value="Adhar Card">Adhar Card</option>
+                            <option value="Pan Card">Pan Card</option>
+                            <option value="GVoter Id">Voter Id</option>
+                        </select>
+                        
+                        <span style="color: red;" *ngIf = "cardid && cardid.invalid && cardid.touched">This is required</span>
+                        <br>
+                    </div>
+                    <br>
+                    <div class="idcard col-md-6">
+                        <label>Enter Identity Card Number</label>
+                        &nbsp;
+                        <input type="number" id="identity" name="identity" class="form-control" placeholder="Identity Card Number" formControlName = "identity">
+                        
+                        <span style="color: red;" *ngIf = "idcard && idcard.invalid && idcard.touched">This is required</span>
+                        <br>
+                    </div>
+                </div>
+                    <div class="organs col-md-12">
+                        
+                        <label for="content" >Organs that i wish to donate</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="content" id="content"> &nbsp; All Organs
+                        &nbsp;
+                        <input type="checkbox" name="content" id="content"> &nbsp; Corneas(Eyes)
+                        &nbsp;
+                        <input type="checkbox" name="content" id="content">&nbsp; Kidney
+                        <br>
+                        <input type="checkbox" name="content" id="content">&nbsp; Heart
+                        &nbsp;
+                        <input type="checkbox" name="content" id="content">&nbsp; Lungs
+                        &nbsp;
+                        <input type="checkbox" name="content" id="content">&nbsp; Liver
+                        <br>
+                        <input type="checkbox" name="content" id="content">&nbsp; Pancreas
+                        &nbsp;
+                        <input type="checkbox" name="content" id="content">&nbsp; Small Intestine
+                        &nbsp;
+                        <input type="checkbox" name="content" id="content">&nbsp; Skin
+                        
+                        <span style="color: red;" *ngIf = "donation && donation.invalid && donation.touched">This is required</span>
+                        <br>   
+                    </div>
+                <br>
+                <br>
+                    <div>
+                        <input type="checkbox" class="check" name="content" id="content" >
+                        &nbsp;
+                        I declare that I am a citizen of India and above 18 years of age
+                    </div>
+                    <br>
+                    <div class="sub">
+                        <button>Submit</button>
+                    </div>
+                </div>  
+         </form>
+    </div>     
+  
+</div>

@@ -1,0 +1,51 @@
+
+   
+   
+ <div id="f"> 
+<div id ="frm">
+   <table class="table table-striped">
+    <thead>
+        <tr >
+            <th>Id no</th>
+            <th>Patient Name</th>
+            <th>Doctor</th>
+            <th>Mobile Number</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Disease</th>
+            <th>Admitted Date</th>
+            <th>Discharged Date</th>
+            <th>Payment</th>
+            <th>Balance Amt</th>
+            <th>Amount Due</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    
+        <tr *ngFor="let patient of patients">
+            <td>{{patient.id}}</td>
+            <td>{{patient.patientName}}</td>
+            <td>{{patient.doctor}}</td>
+            <td>{{patient.mobileNumber}}</td>
+            <td>{{patient.age}}</td>
+            <td>{{patient.gender}}</td>
+            <td>{{patient.disease}}</td>
+            <td>{{patient.admittedDate}}</td>
+            <td>{{patient.dischargedDate}}</td>
+            <td>{{patient.payment}}</td>
+            <td>{{patient.balanceAmount}}</td>
+            <td>{{patient.amountDue}}</td>
+            <td>
+                <button (click)="updatePatient(patient.id)" class="btn btn-info">Update</button>
+                <button (click) = "deletePatient(patient.id)" class = "btn btn-danger" style="margin-left: 10px">Delete</button>
+                <button (click) = "patientDetails(patient.id)" class = "btn btn-info" style="margin-left: 10px">View</button> 
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div> 
+
+

@@ -1,0 +1,19 @@
+
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    
+  }
+  .main{
+    background-image: url("https://thumbs.dreamstime.com/b/organ-donation-concept-hand-giving-heart-organ-donation-concept-hand-giving-heart-surgeons-background-99199301.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    width: 100%;
+  }
+  .navbar{
+    height: 80px;
+  }
+  
+  

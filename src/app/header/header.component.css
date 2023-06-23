@@ -1,0 +1,31 @@
+.header{
+    border: 2px solid black;
+    /* background-color: lightgrey; */
+    text-align: center;
+    display: flex;
+    /* color: white; */
+    justify-content: space-between;
+}
+.image{
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.details{
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.h{
+    font-size: 35px;
+    padding-top: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    /* color:rgb(56, 55, 55); */
+   color:rgb(3, 57, 57)
+   
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+}

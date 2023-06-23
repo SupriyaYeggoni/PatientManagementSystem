@@ -1,0 +1,68 @@
+.footer{
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
+    /* background-color: lightgrey; */
+    justify-content: space-between;
+    justify-content: space-around;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.backimage{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  .links{
+   padding-right: 150px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    
+    color: white;
+    
+    
+  }
+  #lnk{
+    background-color: rgb(0,0,0,0.4);
+    margin-right: 30px;
+    height: 300px;
+    padding-bottom: 50px;
+   
+    padding-left: 120px;
+    margin-top: 50px;
+   
+    text-align: center;
+  }
+  /* .body1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFY9DcDKiECYy4Jy3FZAxeaSmneeaSgjM7PIQSMQVllA6zZiN1hZ2dTsH369wfB-OHWuU&usqp=CAU"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  } */
+  .matter{
+    width: 1000px;
+    height:250px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(0,0,0,0.4);
+    
+    text-align: center;
+  }
+  .body{
+    margin-bottom: 100px;
+  }

@@ -1,0 +1,43 @@
+<div class="top">
+  <div class="name">
+    <div class="dtw">
+        <div class="weather">
+            <div class="sun">
+            <img src="https://img.icons8.com/color/1x/smiling-sun.png" alt="" ></div>
+            <br>   
+        <p>City: {{weatherData.name}}</p>
+        <p>Temperature: {{weatherData.main.temp_max}}</p>
+        <p>Humidity: {{weatherData.main.humidity}}</p>
+        </div>
+        <div class="date">
+            <div class="calender">
+                <img src="https://img.icons8.com/cotton/1x/baby-calendar.png" alt="" height="70px" width="70px">
+            </div>
+            <br>
+           
+            <p style="padding-top: 50px;">Today's Date : {{dateToday}}</p>
+            
+           <p > Name : {{name}}</p>
+        </div>
+    </div>
+      <h1><b>Global Hospitals</b></h1>
+      <hr style=" height: 5px; background-color: black;" >
+      <h6>Our's is one of India's independent and youth 
+             volunteer non profit organisation for Managing Patients Details and encouraging Organ Donation</h6>
+  </div>
+  <div class="boxes">
+    <a lass ="active" routerLink="hospital-form" style="text-decoration: none;">
+        <div class="form">
+            <h2>Fill the Form</h2>
+            <p><b>Add your details ,get Treated and live life</b></p>
+        </div>
+    </a>
+    <a lass ="active" routerLink="form" style="text-decoration: none;">
+        <div class="learn">
+            <h2>Fill the Form</h2>
+            <p><b>By filling the form ,you are validating for organ donation</b></p>
+        </div>
+    </a>
+  </div>
+</div>
+<router-outlet></router-outlet>

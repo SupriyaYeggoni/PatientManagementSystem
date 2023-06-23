@@ -1,0 +1,65 @@
+.block1{
+   display: flex;
+    justify-content: space-between;
+}
+.block2{
+     display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.donar{
+      background-color: rgba(255, 255, 255,0.4);
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 40px;
+    color: rgb(18, 14, 14);;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 600px;
+   height: 400px;
+    box-shadow: 0px 4px 16px;
+}
+.donate{
+   background-color: rgba(255, 255, 255,0.4);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 80px;
+    color: rgb(18, 14, 14);;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 600px;
+   height: 400px;
+    box-shadow: 0px 4px 16px;
+}
+.benifits{
+    background-color: rgba(255, 255, 255,0.4);
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 40px;
+    color: rgb(18, 14, 14);;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 600px;
+   height: 400px;
+    box-shadow: 0px 4px 16px;
+}
+.who{
+     background-color: rgba(255, 255, 255,0.4);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 80px;
+    color: rgb(18, 14, 14);;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 600px;
+   height: 450px;
+    box-shadow: 0px 4px 16px;
+}

@@ -1,0 +1,43 @@
+<div class="total">
+    <div class="howdonationworks">
+        <h1 app-howdonationworks>How doantion works</h1>
+        <pre>
+        Learn what and when you can donate, how organ donors
+        match to organ recipients, and how the transplant process works.
+    </pre>
+    </div>
+    
+    <div class="half">
+        <a lass ="active" routerLink="livingdonar" style="text-decoration: none;">
+            <div class="livingdonar">
+                <h1 app-howdonationworks>Living Donar</h1>
+                <p>
+                    A person can choose to donate organs and tissue when he/she is alive. Kidneys and a part of liver
+                    are the most common organs donated by the living persons. Most of the living donors are close relatives to the recipients 
+                    called living related donation. When a person donates kidney or part of 
+                    liver to a person he is not related is called live unrelated donation. However,
+                    this type of donation needs permission from the government and there should be no financial 
+                    transactions between the donor and recipient.</p>
+            </div>
+        </a>
+        <a class ="active" routerLink="donationafterlife" style="text-decoration: none;"> 
+            <div class="donationafterlife">
+               
+                <h1>Donation after life</h1>
+                <p>
+                    Organ donation is only possible when the donor has died in a hospital. Organs need a 
+                    supply of oxygen-rich blood to remain suitable for transplantation. Donors are put on artificial
+                    respiration to keep their heart beating, so that oxygen-rich blood continues to circulate through their body.
+                </p>
+            
+            </div>
+        </a>  
+        
+        
+    </div>
+    
+    
+    <router-outlet></router-outlet>
+</div>
+
+<router-outlet></router-outlet>

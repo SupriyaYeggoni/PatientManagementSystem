@@ -1,0 +1,70 @@
+input.ng-valid{
+    border-left: 5px solid green;
+}
+
+.error{
+    color: blue;
+}
+.fm{
+    width: 1000px;
+    margin: 50px 10px 100px auto;
+    /* background-image: url("https://thumbs.dreamstime.com/b/forest-path-panorama-25795025.jpg"); */
+    border-spacing: 5px;
+    margin-left: 0px;
+}
+/* .block1{
+    display: flex;
+    justify-content: space-between;
+}
+.block2{
+    display: flex;
+    justify-content: space-between;
+}
+.block3{
+    display: flex;
+    justify-content: space-between;
+}
+.block4{
+    display: flex;
+    justify-content: space-between;
+} */
+.frm{
+   
+    background-color: rgba(0,0,0,0.6); 
+    border: 1px solid rgba(250,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    
+}
+#f{
+    width: 900px;
+    height: 1350px;
+    margin-left: 30px;
+   
+    margin-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+label{
+    font-size: 20px;
+}
+button{
+    width: 250px;
+    padding: 7px;
+    text-align: center;
+    font-size: 16px;
+    
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(250,100,0,0.8);
+    cursor: pointer;
+    border: 1px solid rgba(250,100,0,0.3);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.sub{
+    display: flex;
+    justify-content: space-between;
+}
+

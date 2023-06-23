@@ -1,0 +1,60 @@
+pre{
+    font-size: 20px;
+}
+/* .total{
+  background-color: rgba(0,0,0,0.4);
+} */
+.howdonationworks{
+   background-color: rgba(255, 255, 255,0.4);
+   margin-top: 30px;
+   margin-left: 40px;
+   margin-right: 40px;
+   color: rgb(18, 14, 14);;
+   padding-left: 50px;
+   padding-top: 40px;
+   padding-bottom: 50px;
+   padding-right: 50px;
+   height: 200px;
+   box-shadow: 0px 4px 16px;
+}
+.livingdonar{
+    width: 600px;
+    height: 400px;
+    /* background-color: 	rgb(211, 211, 211); */
+    background-color: rgba(255, 255, 255,0.4);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(18, 14, 14);;
+   margin-left: 100px;
+   padding-left: 50px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-right: 50px;
+   box-shadow: 0px 4px 16px;
+   transition: 0.5s;
+}
+.half{
+    display: flex;
+    justify-content: space-between;
+}
+.donationafterlife{
+    width: 600px;
+    height: 400px;
+    background-color: rgba(255, 255, 255,0.4);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(18, 14, 14);;
+   margin-right: 100px;
+   padding-left: 50px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-right: 50px;
+   box-shadow: 0px 4px 16px;
+   transition: 0.5s;
+}
+.donationafterlife:hover{
+    transform: translateY(-10px);
+}
+.livingdonar:hover{
+    transform: translateY(-10px);
+}

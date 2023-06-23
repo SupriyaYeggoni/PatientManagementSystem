@@ -1,0 +1,92 @@
+.firsthalf{
+    display: flex;
+    justify-content: space-between;
+}
+.secondhalf{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.eligibility{
+    background-color: rgba(255, 255, 255,0.4);
+   margin-top: 30px;
+   margin-left: 60px;
+   margin-right: 40px;
+   color: rgb(18, 14, 14);;
+   padding-left: 50px;
+   padding-top: 40px;
+   padding-bottom: 50px;
+   padding-right: 50px;
+   box-shadow: 0px 4px 16px;
+   width: 600px;
+   height: 400px;
+}
+.limit{
+    background-color: rgba(255, 255, 255,0.4);
+   margin-top: 30px;
+   margin-left: 40px;
+   margin-right: 60px;
+   color: rgb(18, 14, 14);;
+   padding-left: 50px;
+   padding-top: 40px;
+   padding-bottom: 50px;
+   padding-right: 50px;
+   width: 600px;
+   height: 400px;
+   box-shadow: 0px 4px 16px;
+}
+.condition{
+    background-color: rgba(255, 255, 255,0.4);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(18, 14, 14);;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    height: 600px;
+    box-shadow: 0px 4px 16px;
+}
+.cancer{
+    background-color: rgba(255, 255, 255,0.4);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(18, 14, 14);;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 600px;
+   height: 600px;
+    box-shadow: 0px 4px 16px;
+}
+.smoke{
+    background-color: rgba(255, 255, 255,0.4);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(18, 14, 14);;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 600px;
+   height: 600px;
+    box-shadow: 0px 4px 16px;
+}
+.alcohol{
+    background-color: rgba(255, 255, 255,0.4);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(18, 14, 14);;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 600px;
+   height: 600px;
+    box-shadow: 0px 4px 16px;
+}

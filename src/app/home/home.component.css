@@ -1,0 +1,127 @@
+/* .body{
+        background-image: url("https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/08/12/990458-organ-donation-day-2021.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    } */
+
+.top{
+        display: flex;
+        /* justify-content: space-between; */
+        /* background-color: rgba(255, 255, 255,0.4); */
+        
+}
+h1{
+        font-size:60px;
+        font-family: 'Times New Roman', Times, serif;
+        width: 700px;
+        color:rgb(23, 3, 73);
+       
+}
+h6{
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.name{
+        margin-top: 100px;
+       
+        margin-left: 40px;
+       padding-left: 60px;
+}
+.boxes{
+        margin-left: 140px;
+        margin-right: 100px;
+}
+.form{
+    width: 400px;
+    height: 400px;
+    background: url("https://t3.ftcdn.net/jpg/03/24/68/12/360_F_324681273_qQTH3GuuIS9VIWsZpzEC9216HL1g8Vno.jpg");
+    /* background-image: url("https://images.theconversation.com/files/504965/original/file-20230117-14393-yxly0k.jpg?ixlib=rb-1.1.0&rect=5%2C43%2C1243%2C953&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"); */
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    
+    border-radius: 10px;
+    display: inline-block;
+    background-position: center;
+    transition: 0.5s;
+    
+
+}
+.learn{
+        color: black;
+        width: 400px;
+        height: 400px;
+        margin-bottom: 50px;
+        background-image: url("https://media.gettyimages.com/id/472829838/photo/reminder-of-the-importance-of-being-an-organ-donor.jpg?s=612x612&w=gi&k=20&c=uzl-OtmuOVMKlIGVr6Hj-2iWbApLpr6aGZ5_SRb73K8=");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        border-radius: 10px;
+        display: inline-block;
+        background-position: center;
+        transition: 0.5s;
+        margin-top: 50px;      
+}
+.form:hover{
+        transform: translateY(-10px);
+}
+.learn:hover{
+        transform: translateY(-10px);
+}
+h2{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        padding-left: 20px;
+        padding-top: 20px;
+}
+p{
+        padding-left: 20px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+}
+.weather{
+        display: block;
+        border-radius: 10px;
+        width: 250px;
+        height: 250px;
+        padding-top: 30px;
+        background: rgb(0, 0, 0);
+         background: linear-gradient(180deg,rgba(0,0,0,1) 0%, rgba(8,7,42,1)); 
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sun{
+        height: 30px;
+        width: 30px;
+        padding-left: 20px;
+}
+.dtw{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+}
+.date{
+        display: block;
+        border-radius: 10px;
+        width: 250px;
+        height: 250px;
+        padding-top: 30px;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(180deg,rgba(0,0,0,1) 0%, rgba(8,7,42,1)); 
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 10px;
+        padding-top: 20px;
+        margin-right: 100px;
+}  
+.calender{
+        height: 5px;
+        width: 5px;
+        padding-left: 20px;
+} 
+
